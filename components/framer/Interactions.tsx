@@ -134,10 +134,11 @@ export default function Interactions() {
         const total = Math.max(r.height - window.innerHeight * 0.8, 1);
         const y = Math.min(Math.max(-r.top, 0), total);
         const p = y / total;
-        // slide the gradient indicator continuously along the track
+        // slide the gradient indicator top-to-bottom (matches the original:
+        // beam starts lifted by ~track height and settles at its natural spot)
         if (bar && indicator) {
-          const travel = Math.max(bar.clientHeight - indicator.clientHeight, 0);
-          indicator.style.transform = `translateY(${p * travel}px)`;
+          const travel = Math.max(bar.clientHeight - 71, 0);
+          indicator.style.transform = `translateY(${(p - 1) * travel}px)`;
         }
         const idx = Math.min(2, Math.floor(p * 3));
         if (idx === cur) return;
