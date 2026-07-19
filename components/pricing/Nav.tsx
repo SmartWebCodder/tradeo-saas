@@ -37,22 +37,7 @@ export default function Nav() {
                       </a>
                     </p>
                   </div>
-                  <div className="framer-cgu5vk-container" id="undefined-cgu5vk">
-                    <div className="framer-KHjgM framer-1166srf framer-v-1166srf" data-framer-name="Close" data-highlight="true" tabIndex={0}>
-                      <div className="framer-xp7hjl" data-framer-name="Pages" data-framer-component-type="RichTextContainer" style={{"--extracted-r6o4lv":"rgb(169, 169, 172)","--framer-paragraph-spacing":"0px",transform:"none"} as CSSProperties}>
-                        <p className="framer-text" style={{"--framer-line-height":"150%","--framer-text-color":"var(--extracted-r6o4lv, rgb(169, 169, 172))"} as CSSProperties}>
-{"Pages"}
-                        </p>
-                      </div>
-                      <div data-framer-component-type="SVG" data-framer-name="Down - 3" data-parentsize="0" data-rotation="0" data-shadows="" className="framer-vdc2hr" aria-hidden="true" style={{imageRendering:"pixelated",flexShrink:"0",fill:"rgba(0,0,0,1)",color:"rgba(0,0,0,1)",transform:"none"} as CSSProperties}>
-                        <div className="svgContainer" style={{width:"100%",height:"100%",aspectRatio:"inherit"} as CSSProperties}>
-                        <svg style={{width:"100%",height:"100%"} as CSSProperties} viewBox="0 0 24 24">
-                        <use href="#svg-444968427_216"/>
-                        </svg>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  <div className="framer-cgu5vk-container" id="undefined-cgu5vk"/>
                   <div className="framer-12z0kwm" data-framer-name="Pricing" data-framer-component-type="RichTextContainer" style={{"--framer-paragraph-spacing":"0px",transform:"none"} as CSSProperties}>
                     <p className="framer-text framer-styles-preset-x1uaoc" data-styles-preset="EFy6ahMTW">
                       <a className="framer-text framer-styles-preset-il90gf" data-styles-preset="l_wfiJ3N0" href="/pricing" data-framer-page-link-current="true">
@@ -142,22 +127,7 @@ export default function Nav() {
                       </a>
                     </p>
                   </div>
-                  <div className="framer-cgu5vk-container" id="undefined-cgu5vk">
-                    <div className="framer-KHjgM framer-1166srf framer-v-1166srf" data-framer-name="Close" data-highlight="true" tabIndex={0}>
-                      <div className="framer-xp7hjl" data-framer-name="Pages" data-framer-component-type="RichTextContainer" style={{"--extracted-r6o4lv":"rgb(169, 169, 172)","--framer-paragraph-spacing":"0px",transform:"none"} as CSSProperties}>
-                        <p className="framer-text" style={{"--framer-line-height":"150%","--framer-text-color":"var(--extracted-r6o4lv, rgb(169, 169, 172))"} as CSSProperties}>
-{"Pages"}
-                        </p>
-                      </div>
-                      <div data-framer-component-type="SVG" data-framer-name="Down - 3" data-parentsize="0" data-rotation="0" data-shadows="" className="framer-vdc2hr" aria-hidden="true" style={{imageRendering:"pixelated",flexShrink:"0",fill:"rgba(0,0,0,1)",color:"rgba(0,0,0,1)",transform:"none"} as CSSProperties}>
-                        <div className="svgContainer" style={{width:"100%",height:"100%",aspectRatio:"inherit"} as CSSProperties}>
-                        <svg style={{width:"100%",height:"100%"} as CSSProperties} viewBox="0 0 24 24">
-                        <use href="#svg-444968427_216"/>
-                        </svg>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  <div className="framer-cgu5vk-container" id="undefined-cgu5vk"/>
                   <div className="framer-12z0kwm" data-framer-name="Pricing" data-framer-component-type="RichTextContainer" style={{"--framer-paragraph-spacing":"0px",transform:"none"} as CSSProperties}>
                     <p className="framer-text framer-styles-preset-x1uaoc" data-styles-preset="EFy6ahMTW">
                       <a className="framer-text framer-styles-preset-il90gf" data-styles-preset="l_wfiJ3N0" href="/pricing" data-framer-page-link-current="true">
@@ -247,22 +217,7 @@ export default function Nav() {
                       </a>
                     </p>
                   </div>
-                  <div className="framer-cgu5vk-container" id="undefined-cgu5vk">
-                    <div className="framer-KHjgM framer-1166srf framer-v-1166srf" data-framer-name="Close" data-highlight="true" tabIndex={0}>
-                      <div className="framer-xp7hjl" data-framer-name="Pages" data-framer-component-type="RichTextContainer" style={{"--extracted-r6o4lv":"rgb(169, 169, 172)","--framer-paragraph-spacing":"0px",transform:"none"} as CSSProperties}>
-                        <p className="framer-text" style={{"--framer-line-height":"150%","--framer-text-color":"var(--extracted-r6o4lv, rgb(169, 169, 172))"} as CSSProperties}>
-{"Pages"}
-                        </p>
-                      </div>
-                      <div data-framer-component-type="SVG" data-framer-name="Down - 3" data-parentsize="0" data-rotation="0" data-shadows="" className="framer-vdc2hr" aria-hidden="true" style={{imageRendering:"pixelated",flexShrink:"0",fill:"rgba(0,0,0,1)",color:"rgba(0,0,0,1)",transform:"none"} as CSSProperties}>
-                        <div className="svgContainer" style={{width:"100%",height:"100%",aspectRatio:"inherit"} as CSSProperties}>
-                        <svg style={{width:"100%",height:"100%"} as CSSProperties} viewBox="0 0 24 24">
-                        <use href="#svg-444968427_216"/>
-                        </svg>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  <div className="framer-cgu5vk-container" id="undefined-cgu5vk"/>
                   <div className="framer-12z0kwm" data-framer-name="Pricing" data-framer-component-type="RichTextContainer" style={{"--framer-paragraph-spacing":"0px",transform:"none"} as CSSProperties}>
                     <p className="framer-text framer-styles-preset-x1uaoc" data-styles-preset="EFy6ahMTW">
                       <a className="framer-text framer-styles-preset-il90gf" data-styles-preset="l_wfiJ3N0" href="/pricing" data-framer-page-link-current="true">
