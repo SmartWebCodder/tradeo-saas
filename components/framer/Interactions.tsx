@@ -126,12 +126,20 @@ export default function Interactions() {
       if (!layers[0]) return;
       const card = pd.querySelector<HTMLElement>('[data-framer-name="Process Card"]');
       const cardSteps = card ? (Array.from(card.children) as HTMLElement[]) : [];
+      const bar = pd.querySelector<HTMLElement>('[data-framer-name="Progress Bar"]');
+      const indicator = bar ? (bar.firstElementChild as HTMLElement | null) : null;
       let cur = -1;
       const onScroll = () => {
         const r = pd.getBoundingClientRect();
         const total = Math.max(r.height - window.innerHeight * 0.8, 1);
         const y = Math.min(Math.max(-r.top, 0), total);
-        const idx = Math.min(2, Math.floor((y / total) * 3));
+        const p = y / total;
+        // slide the gradient indicator continuously along the track
+        if (bar && indicator) {
+          const travel = Math.max(bar.clientHeight - indicator.clientHeight, 0);
+          indicator.style.transform = `translateY(${p * travel}px)`;
+        }
+        const idx = Math.min(2, Math.floor(p * 3));
         if (idx === cur) return;
         cur = idx;
         layers.forEach((l, i) => {
